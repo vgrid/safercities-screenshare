@@ -1,0 +1,43 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0.2em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.6em;
+  margin: 0.4em 0.5em;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button:hover {
+  background-color: #17b0e3;
+  color: white;
+}
